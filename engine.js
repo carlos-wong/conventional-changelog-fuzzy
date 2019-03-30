@@ -4,6 +4,11 @@ var wrap = require('word-wrap');
 var map = require('lodash.map');
 var longest = require('longest');
 var rightPad = require('right-pad');
+var _ = require('lodash');
+var fuzzy = require('fuzzy');
+var inquirer = require('inquirer');
+inquirer.registerPrompt('autocomplete', require('inquirer-autocomplete-prompt'));
+
 
 var filter = function(array) {
   return array.filter(function(x) {

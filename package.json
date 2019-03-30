@@ -1,7 +1,7 @@
 {
-  "name": "cz-conventional-changelog",
-  "version": "0.0.0-semantically-released.0",
-  "description": "Commitizen adapter following the conventional-changelog format.",
+  "name": "conventional-changelog-fuzzy",
+  "version": "0.0.1",
+  "description": "Commitizen adapter following the conventional-changelog format with fuzzy match type.",
   "main": "index.js",
   "scripts": {
     "commit": "git-cz",
@@ -17,9 +17,14 @@
   "license": "MIT",
   "dependencies": {
     "conventional-commit-types": "^2.0.0",
+    "fuzzy": "^0.1.3",
+    "inquirer": "^6.2.2",
+    "inquirer-autocomplete-prompt": "^1.0.1",
+    "lodash": "^4.17.11",
     "lodash.map": "^4.5.1",
     "longest": "^1.0.1",
     "right-pad": "^1.0.1",
+    "rxjs": "^6.4.0",
     "word-wrap": "^1.0.3"
   },
   "devDependencies": {
@@ -27,7 +32,7 @@
     "semantic-release": "^6.3.2"
   },
   "config": {
-    "commitizen" : {
+    "commitizen": {
       "path": "./index.js"
     }
   }
