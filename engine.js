@@ -86,7 +86,6 @@ module.exports = function (options) {
           default: options.defaultSubject
         }
       ]).then(function(answers) {
-        console.log("Dump answers is:",answers);
         if(!answers.subject || answers.subject.length <= 0){
           console.log("Error: subject is empty");
           return -1;
