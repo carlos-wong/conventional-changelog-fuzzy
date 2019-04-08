@@ -13,4 +13,4 @@ Part of the [commitizen](https://github.com/commitizen/cz-cli) family. Prompts f
 
 # Demo
 
-[!images/git-cz-changelog-fz.gif](images/git-cz-changelog-fz.gif)
+![images/git-cz-changelog-fz.gif](images/git-cz-changelog-fz.gif)
