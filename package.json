@@ -1,6 +1,6 @@
 {
   "name": "conventional-changelog-fuzzy",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Commitizen adapter following the conventional-changelog format with fuzzy match type.",
   "main": "index.js",
   "scripts": {

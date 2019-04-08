@@ -10,3 +10,7 @@ Part of the [commitizen](https://github.com/commitizen/cz-cli) family. Prompts f
 
 1. Fuzzy match for select the commit type
 2. simply the commit message format
+
+# Demo
+
+[!images/git-cz-changelog-fz.gif](images/git-cz-changelog-fz.gif)
