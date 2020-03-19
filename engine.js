@@ -84,6 +84,12 @@ module.exports = function (options) {
           name: 'subject',
           message: 'Write a short, imperative tense description of the change:\n',
           default: options.defaultSubject
+        },
+        {
+          type: 'input',
+          name: 'body',
+          message: 'Provide a longer description of the change: (press enter to skip)\n',
+          default: options.defaultBody
         }
       ]).then(function(answers) {
         if(!answers.subject || answers.subject.length <= 0){
